@@ -2,7 +2,10 @@
 
 A CLI for defining crop regions on PDFs and batch cropping/rotating them. Useful for shipping labels or other PDF documents that need consistent formatting.
 
-> **Acknowledgement:** Credit to the [original project](https://github.com/abdulhtc24/label_corrector) and [tutorial](https://www.youtube.com/watch?v=buwDcc9j00o) by abdulhtc24. This fork turns it into a `uv` tool, making installation and usage easier.
+
+> **Acknowledgement:** Credit to the [original project](https://github.com/abdulhtc24/label_corrector) and [tutorial](https://www.youtube.com/watch?v=buwDcc9j00o) by abdulhtc24. This fork simplifies installation and adds a few extra features.
+
+![Screenshot of the LabelCrop GUI](LabelCrop-GUI.webp)
 
 ## Features
 
@@ -30,13 +33,13 @@ uv tool uninstall label-crop
 ```
 
 ## Usage
-You should have `label-crop` as a global command. Alternatively, you can run `lbl.py` using `python3` or `uv run`.
+You should have `label-crop` as a global command. Alternatively, you can run `lbl.py` using `uv run` or `python3`.
 
-### Crop Selection:
+### Select Crop Area:
 ```bash
 label-crop input.pdf
 ```
-Select the rectangular crop region.
+Use the toolbar to choose Freeform, Force Aspect Ratio, or Force Dimensions. Enter any aspect ratio or dimension constraints. Adjust the crop area by dragging the rectangle, its edges, or its corners. Click Done to save the selection and close.
 
 ### Crop:
 ```bash

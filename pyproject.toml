@@ -1,6 +1,6 @@
 [project]
 name = "label-crop"
-version = "0.1.0"
+version = "0.2.0"
 description = "A CLI for defining crop regions on PDFs and batch cropping/rotating them. Useful for shipping labels or other PDF documents that need consistent formatting."
 readme = "README.md"
 requires-python = ">=3.13"
