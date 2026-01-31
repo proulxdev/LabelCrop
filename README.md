@@ -27,7 +27,7 @@ uv tool install https://github.com/proulxdev/LabelCrop/archive/refs/heads/main.z
 ```bash
 uv tool upgrade labelcrop
 ```
-### Remove:
+### Uninstall:
 ```bash
 uv tool uninstall labelcrop
 ```
